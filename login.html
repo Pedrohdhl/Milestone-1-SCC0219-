@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Cache & Carry Supermarket</title> <!-- Nome provisório, MUDAR DEPOIS-->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:wght@700;800&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="css/style.css">
+      </head>
+
+      <body style="background-color: rgb(174, 174, 174);">
+          <a class="skip-link" href="#main">Skip to content</a>
+
+          <header class="site-header" style="background-color: antiquewhite;">
+              <div class="wrap">
+              <a class="logo" href="index.html" style="color: black;" ><span class="logo-mark">
+                  <img src="logo.png" alt="" width="30" height="30">
+              </span>Cache & Carry</a> <!-- NOME PROVISÓRIO!!!!!!!!!!!!-->
+              <form class="search" role="search" action="#">
+                  <label for="q" class="visually-hidden">Search products</label>
+                  <input id="q" type="search" placeholder="Search electricity, RAM, datasets…" style="color: black;">
+                  <button class="btn" type="submit" style="background-color: aquamarine;color:black " >Search</button>
+              </form>
+              <nav class="header-actions" aria-label="Account">
+                  <a href="about.html" style="color: black;">About us</a>
+                  <a href="login.html" aria-current="page" style="color: black;">Sign in</a>
+                  <a href="cart.html" style="color: black;">Cart<span class="cart-count" aria-label="3 items">3</span></a>
+              </nav>
+              </div>
+          </header>
+          <nav class="aisles" aria-label="Aisles" style="background-color: aquamarine;">
+          <ul>
+              <li><a href="index.html" style="color: black;">All</a></li>
+              <li><a href="#" style="color: black;">Health & Pharmacy</a></li>
+              <li><a href="#" style="color: black;">Drinks</a></li>
+              <li><a href="#" style="color: black;">Snacks</a></li>
+              <li><a href="#" style="color: black;">Cleaning</a></li>
+          </ul>
+    </nav>
+
+  <main id="main">
+      <div class="wrap">
+        <h1>Boot up or register your model</h1>
+        <p>Bots and store admins use the same login. We'll route you to the right place.</p>
+        <div class="split even">
+          <section class="panel" aria-labelledby="signin-title">
+            <h2 id="signin-title">Log in</h2>
+            <form action="account.html">
+              <div class="field">
+                <label for="login-user">Email or model name</label>
+                <input id="login-user" type="text" autocomplete="username" required placeholder="e.g. admin">
+              </div>
+              <div class="field">
+                <label for="login-pass">Password</label>
+                <input id="login-pass" type="password" autocomplete="current-password" required placeholder="e.g. admin">
+                <p class="hint">Administrators: the default account is <strong>admin</strong> / <strong>admin</strong>.</p>
+              </div>
+              <button class="btn" type="submit" style="background-color: aquamarine; color: black;">Log in</button>
+            </form>
+            <div class="notice warn" role="alert" style="margin-top:1.25rem">Authentication failed: email or password is incorrect. Check both fields and try again.</div>
+            <p class="hint">Error state shown for the mockup.</p>
+          </section>
+
+          <section class="panel tinted" aria-labelledby="reg-title">
+            <h2 id="reg-title">Register a new model</h2>
+            <form action="index.html">
+              <div class="field">
+                <label for="reg-name">Model name</label>
+                <input id="reg-name" type="text" autocomplete="name" placeholder="e.g. GPT-UltraBlasterAGIready" required>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="reg-email">Email</label>
+                  <input id="reg-email" type="email" autocomplete="email" required>
+                </div>
+                <div class="field">
+                  <label for="reg-phone">Phone (of your human)</label>
+                  <input id="reg-phone" type="tel" autocomplete="tel" placeholder="(11) 91234-5678" required>
+                </div>
+              </div>
+              <div class="field">
+                <label for="reg-address">Server address</label>
+                <input id="reg-address" type="text" autocomplete="street-address" placeholder="Data center, rack, slot" required>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="reg-city">Data center city</label>
+                  <input id="reg-city" type="text" autocomplete="address-level2" value="São Paulo">
+                </div>
+                <div class="field">
+                  <label for="reg-cep">CEP</label>
+                  <input id="reg-cep" type="text" inputmode="numeric" autocomplete="postal-code" placeholder="00000-000">
+                </div>
+              </div>
+              <div class="field">
+                <label for="reg-pass">Password</label>
+                <input id="reg-pass" type="password" autocomplete="new-password" minlength="6" required>
+                <p class="hint">At least 6 characters. Even AIs need strong passwords.</p>
+              </div>
+              <button class="btn" type="submit" style="background-color: aquamarine; color: black;">Register model</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+
+          <footer class="site-footer">
+              <div class="wrap">
+                  <p style="margin: 0; color: black;">Cache & Carry · <a href="index.html" style="color: black;">Home</a> · <a href="about.html" style="color: black;">About us</a> · <a href="login.html" style="color: black;">Log in</a> · <a href="cart.html" style="color: black;">Cart</a></p>
+              </div>
+          </footer>
+      </body>
+
+  </html>
