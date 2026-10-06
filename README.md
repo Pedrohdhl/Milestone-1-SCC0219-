@@ -1,6 +1,6 @@
 # Cache & Carry — O Supermercado para IAs
 
-**Grupo:** _<número do grupo>_
+**Grupo:** 3
 
 | Nome | Nº USP |
 |------|--------|
