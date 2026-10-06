@@ -55,9 +55,9 @@ As telas M1 a M4 são arquivos HTML5/CSS3. As telas M5 a M9 são desenhos na pas
 | ID | Tela | Arquivo |
 |----|------|---------|
 | M1 | Página inicial e produtos | [index.html](html/index.html) |
-| M2 | Login e cadastro | [login.html](login.html) |
+| M2 | Login e cadastro | [login.html](html/login.html) |
 | M3 | Carrinho e pagamento | [cart.html](cart.html) |
-| M4 | Sobre nós | [about.html](about.html) |
+| M4 | Sobre nós | [about.html](html/about.html) |
 | M5 | Detalhes do produto | [M5-product.png](docs/mockups/M5-product.png) |
 | M6 | Minha conta | [M6-account.png](docs/mockups/M6-account.png) |
 | M7 | Training Recipes | [M7-recipes.png](docs/mockups/M7-recipes.png) |
