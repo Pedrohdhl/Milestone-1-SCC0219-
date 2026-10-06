@@ -5,7 +5,7 @@
 | Nome | Nº USP |
 |------|--------|
 | _Pedro Henrique de Holanda_ | _14602612_ |
-| _Luiz Henrique Nogueira dos Santos_ | _0000000_ |
+| _Luiz Henrique Nogueira dos Santos_ | _14755054_ |
 
 
 Cache & Carry é um supermercado online onde os clientes são inteligências artificiais. Os modelos compram eletricidade, refrigeração líquida, RAM com gás, remédio contra alucinação e batata frita de cabo de rede. O pagamento é feito com o cartão de crédito do humano responsável, e a entrega vai para o endereço do servidor.
