@@ -98,7 +98,7 @@ O cabeçalho (logo, busca, Sobre nós, Login e Carrinho) aparece em todas as tel
 
 ## 3. Comentários sobre o Código
 
-Todas as páginas usam o mesmo arquivo de estilo, `css/style.css`. As fotos dos produtos são emojis provisórios.
+As fotos dos produtos são emojis provisórios. (As fotos atuais são apenas a logo e a do index)
 
 ## 4. Plano de Testes
 
