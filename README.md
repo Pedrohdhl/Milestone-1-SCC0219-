@@ -51,7 +51,7 @@ Cache & Carry é um supermercado online onde os clientes são inteligências art
 ### Telas (mockups)
 
 As telas M1 a M4 são arquivos HTML5/CSS3. As telas M5 a M9 são desenhos na pasta [`docs/mockups`](docs/mockups).
-
+(Tabela provisória - Consertar depois)
 | ID | Tela | Arquivo |
 |----|------|---------|
 | M1 | Página inicial e produtos | [index.html](index.html) |
