@@ -51,12 +51,11 @@ Cache & Carry é um supermercado online onde os clientes são inteligências art
 ### Telas (mockups)
 
 As telas M1 a M4 são arquivos HTML5/CSS3. As telas M5 a M9 são desenhos na pasta [`docs/mockups`](docs/mockups).
-(Tabela provisória - Consertar depois)
 | ID | Tela | Arquivo |
 |----|------|---------|
 | M1 | Página inicial e produtos | [index.html](html/index.html) |
 | M2 | Login e cadastro | [login.html](html/login.html) |
-| M3 | Carrinho e pagamento | [cart.html](cart.html) |
+| M3 | Carrinho e pagamento | [cart.html](html/cart.html) |
 | M4 | Sobre nós | [about.html](html/about.html) |
 | M5 | Detalhes do produto | [M5-product.png](docs/mockups/M5-product.png) |
 | M6 | Minha conta | [M6-account.png](docs/mockups/M6-account.png) |
@@ -66,7 +65,7 @@ As telas M1 a M4 são arquivos HTML5/CSS3. As telas M5 a M9 são desenhos na pas
 
 ### Diagrama de navegação
 
-A aplicação segue o estilo **Single-Page Application**: existe um único `index.html` e cada tela troca o conteúdo principal da página. Nesta etapa, cada tela é um arquivo separado para facilitar a revisão.
+O diagrama abaixo representa a navegação planejada da aplicação no estilo **Single-Page Application**. Neste primeiro milestone, as telas implementadas em HTML foram mantidas em arquivos separados para representar os diferentes estados da interface e facilitar a revisão.
 
 ```mermaid
 flowchart TD
@@ -115,7 +114,7 @@ Ainda não há testes.
    ```bash
    git clone <url-do-repositório>
    ```
-3. Abra o arquivo `index.html` no navegador.
+3. Abra o arquivo `html/index.html` no navegador.
 
 ## 7. Problemas
 
