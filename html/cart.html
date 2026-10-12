@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cart · Cache & Carry Supermarket</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:wght@700;800&display=swap" rel="stylesheet">
+    </head>
+
+    <body style="background-color: rgb(174, 174, 174);">
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <header class="site-header" style="background-color: antiquewhite;">
+            <div class="wrap">
+            <a class="logo" href="index.html" style="color: black;"><span class="logo-mark">
+                <img src="../static/logo.png" alt="" width="30" height="30">
+            </span>Cache & Carry</a>
+            <form class="search" role="search" action="#">
+                <label for="q" class="visually-hidden">Search products</label>
+                <input id="q" type="search" placeholder="Search electricity, RAM, datasets…" style="color: black;">
+                <button class="btn" type="submit" style="background-color: aquamarine; color: black;">Search</button>
+            </form>
+            <nav class="header-actions" aria-label="Account">
+                <a href="login.html" style="color: black;">Sign in</a>
+                <a href="about.html" style="color: black;">About us</a>
+                <a href="cart.html" aria-current="page" style="color: black;">Cart<span class="cart-count" aria-label="3 items">3</span></a>
+            </nav>
+            </div>
+        </header>
+
+        <nav class="aisles" aria-label="Aisles" style="background-color: aquamarine;">
+            <ul>
+                <li><a href="index.html" style="color: black;">All</a></li>
+                <li><a href="#" style="color: black;">Health & Pharmacy</a></li>
+                <li><a href="#" style="color: black;">Drinks</a></li>
+                <li><a href="#" style="color: black;">Snacks</a></li>
+                <li><a href="#" style="color: black;">Cleaning</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <div class="wrap">
+                <h1>Your cart</h1>
+                <p>Review your supplies before sending them to your rack.</p>
+
+                <div class="split even">
+                    <!-- Cart summary -->
+                    <section class="panel" aria-labelledby="cart-title">
+                        <h2 id="cart-title">Current order</h2>
+
+                        <div class="table-scroll">
+                            <table>
+                                <caption class="visually-hidden">Products currently in the cart</caption>
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                        <th>Total</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>🥤 Sparkling RAM</td>
+                                        <td>
+                                            <label class="visually-hidden" for="ram-quantity">Sparkling RAM quantity</label>
+                                            <input id="ram-quantity" type="number" min="1" max="20" value="2" style="width: 4rem;">
+                                        </td>
+                                        <td>R$ 14,90</td>
+                                        <td>R$ 29,80</td>
+                                        <td><button class="btn small" type="button">Remove</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>🍟 LAN cable fries</td>
+                                        <td>
+                                            <label class="visually-hidden" for="fries-quantity">LAN cable fries quantity</label>
+                                            <input id="fries-quantity" type="number" min="1" max="15" value="1" style="width: 4rem;">
+                                        </td>
+                                        <td>R$ 12,90</td>
+                                        <td>R$ 12,90</td>
+                                        <td><button class="btn small" type="button">Remove</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <p><strong>3 items</strong></p>
+                        <p><strong>Order total: R$ 42,70</strong></p>
+
+                        <p>
+                            <a class="btn secondary" href="index.html">Continue shopping</a>
+                            <button class="btn" type="button" style="background-color: aquamarine; color: black;">Update cart</button>
+                        </p>
+                    </section>
+
+                    <!-- Payment mockup -->
+                    <section class="panel tinted" aria-labelledby="payment-title">
+                        <h2 id="payment-title">Payment</h2>
+                        <form action="index.html">
+                            <div class="field">
+                                <label for="card-name">Name on card</label>
+                                <input id="card-name" type="text" autocomplete="cc-name" placeholder="Human operator" required>
+                            </div>
+
+                            <div class="field">
+                                <label for="card-number">Credit card number</label>
+                                <input id="card-number" type="text" inputmode="numeric" autocomplete="cc-number" placeholder="0000 0000 0000 0000" required>
+                            </div>
+
+                            <div class="field-row">
+                                <div class="field">
+                                    <label for="card-expiration">Expiration</label>
+                                    <input id="card-expiration" type="text" inputmode="numeric" autocomplete="cc-exp" placeholder="MM/YY" required>
+                                </div>
+                                <div class="field">
+                                    <label for="card-cvv">CVV</label>
+                                    <input id="card-cvv" type="text" inputmode="numeric" autocomplete="cc-csc" placeholder="123" required>
+                                </div>
+                            </div>
+
+                            <div class="notice" style="margin: 1.25rem 0;">
+                                <strong>Total to pay: R$ 42,70</strong>
+                            </div>
+
+                            <button class="btn" type="submit" style="background-color: aquamarine; color: black;">Pay and place order</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="wrap">
+                <p style="margin: 0; color: black;">Cache & Carry · <a href="index.html" style="color: black;">Home</a> · <a href="about.html" style="color: black;">About us</a> · <a href="login.html" style="color: black;">Log in</a> · <a href="cart.html" style="color: black;">Cart</a></p>
+            </div>
+        </footer>
+    </body>
+
+</html>
